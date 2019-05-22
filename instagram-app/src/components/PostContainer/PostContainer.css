@@ -1,0 +1,19 @@
+.postContainerClass {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+.post-img-div {
+    border: 1px solid red;
+    margin: 10px;
+    width: 98%;
+    height: 400px;
+}
+
+.top-post {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
