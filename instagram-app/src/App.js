@@ -35,7 +35,8 @@ class App extends Component {
     return (
       <div className="App">
         < SearchBar />
-        < PostContainer thePosts={this.state.instaPosts} />
+        < PostContainer className="postContainer" thePosts={this.state.instaPosts} />
+        < PostContainer className="postContainer" thePosts={this.state.instaPosts} />
       </div>
     );
   }
