@@ -11,7 +11,7 @@ const SearchBar = props => {
                     <a href=""><i className="fab fa-instagram fa-2x"></i></a>
                 </div>     
                 <div className="instagram-text-logo">
-                    <a className="instagram-link" href="#">Instagram</a>
+                    <div className="instagram-link">Instagram</div>
                 </div>
             </div>            
             <div className="search-box">

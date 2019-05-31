@@ -5,7 +5,8 @@
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
     margin: 0 0 30px 0;
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     background: #ffffff;
 }
 
@@ -17,6 +18,14 @@
     align-items: baseline;
 }
 
+.instagram-text-logo {
+    margin-left: 15px;
+}
+
+.insta-icon {
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
 
 /*
 .instagram-text-logo {
@@ -41,19 +50,41 @@
     border: 1px solid #dbdbdb;
     padding: 0 50px 0 50px;
     height: 28px;
-    width: 118px;
-    color: #d0d0d0;
+    width: 148px;
+    color: #bababa;
+    border-radius: 4px;
+}
+
+.search-icon {
+    color: #bababa;
+}
+
+.search-text {
+    color: #bababa;
+    margin-left: 5px;
 }
 
 .right-search-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+/*    border: 1px dotted orange; */
+    margin: 30px;
+    width: 150px;
 }
 
 .profile-icon {
-    margin: 0 30px 0 10px;
+    color: lightgray;
+    /*    border: 1px dotted orange; */
 }
 
 .heart-icon {
-    margin: 0 10px 0 20px;
+    color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+/*    border: 1px dotted orange; */
+}
+
+.profile-icon {
+    color: lightgray;
+    /*    border: 1px dotted orange; */
 }
